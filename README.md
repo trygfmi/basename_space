@@ -63,6 +63,7 @@ basename '$file' $file</code></pre>
 
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -89,6 +90,7 @@ basename '$file' $file</code></pre>
 <div class="wp-block-group">
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -112,6 +114,7 @@ basename '$file' $file</code></pre>
 <div class="wp-block-group">
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -179,6 +182,7 @@ basename '$file' $file</code></pre>
 
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -255,6 +259,7 @@ echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</c
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
 git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -355,6 +360,7 @@ basename '$file' $file</code></pre>
 <div class="wp-block-group">
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
@@ -378,6 +384,7 @@ basename '$file' $file</code></pre>
 <div class="wp-block-group">
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
+cat basename_space.sh
 chmod 755 basename_space.sh
 ./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
 
