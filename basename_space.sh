@@ -9,5 +9,5 @@ echo "basename  "'$file'"  "$filename
 filename_space_double=$(basename "$file")
 echo "basename "'"$file"'" "$filename_space_double
 
-filename_space_single=$(basename "$file")
+filename_space_single=$(basename '$file')
 echo "basename '"'$file'"' "$filename_space_single

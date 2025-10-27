@@ -42,9 +42,11 @@ chmod 755 basename_space.sh
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename: 余分な演算子 `command/file_name.txt'
+詳しくは 'basename --help' を実行して下さい。
+basename  $file
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 
@@ -69,7 +71,7 @@ chmod 755 basename_space.sh
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 
@@ -93,9 +95,11 @@ chmod 755 basename_space.sh
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename: extra operand ‘command/file_name.txt’
+Try 'basename --help' for more information.
+basename  $file
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 
@@ -114,9 +118,11 @@ chmod 755 basename_space.sh
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>basename: extra operand ‘command/file_name.txt’
+Try 'basename --help' for more information.
+basename  $file
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 </div>
@@ -179,9 +185,11 @@ chmod 755 basename_space.sh
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
+<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename: 余分な演算子 `command/file_name.txt'
+詳しくは 'basename --help' を実行して下さい。
+basename  $file
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 </details>
@@ -255,7 +263,7 @@ chmod 755 basename_space.sh
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
 </div>
 </details>
@@ -340,6 +348,11 @@ basename '$file' file_name.txt</code></pre>
 
 
 
+<h5 class="wp-block-heading">WSL2</h5>
+
+
+
+<div class="wp-block-group">
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
 cd basename_space
 chmod 755 basename_space.sh
@@ -348,10 +361,36 @@ chmod 755 basename_space.sh
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename  $file  hello basename file_name.txt
+<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename: extra operand ‘command/file_name.txt’
+Try 'basename --help' for more information.
+basename  $file
 basename "$file" file_name.txt
-basename '$file' file_name.txt</code></pre>
+basename '$file' $file</code></pre>
 </details>
+</div>
+
+
+
+<h5 class="wp-block-heading">MSYS2 MINGW64</h5>
+
+
+
+<div class="wp-block-group">
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/basename_space
+cd basename_space
+chmod 755 basename_space.sh
+./basename_space.sh "./hello world/basename command/file_name.txt"</code></pre>
+
+
+
+<details class="wp-block-details"><summary>詳細</summary>
+<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>basename: extra operand ‘command/file_name.txt’
+Try 'basename --help' for more information.
+basename  $file
+basename "$file" file_name.txt
+basename '$file' $file</code></pre>
+</details>
+</div>
 </div>
 </details>
 </div>
@@ -363,7 +402,7 @@ basename '$file' file_name.txt</code></pre>
 
 
 <div class="wp-block-group">
-<p>basename $fileは、変数名に空白が含まれていると上記のように空白を含むフォルダ名の一つ目の文字列とファイル名を出力するので、basename "$file"のように変数名をダブルクオーテーションやシングルクオーテーションで囲むようにしておきたいところです</p>
+<p>basename $fileは、変数名に空白が含まれていると出力結果のようにエラーになったり、空白を含むフォルダ名の一つ目の文字列とファイル名を出力するので、basename "$file"のように変数名をダブルクオーテーションで囲むようにしておきたいところです<br>シングルクオーテーションは変数の中身が展開されないので変数名が出力されます</p>
 
 
 
